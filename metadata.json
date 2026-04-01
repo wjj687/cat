@@ -1,0 +1,5 @@
+{
+  "name": "猫咪日志 (NekoLog)",
+  "description": "一款治愈系的猫咪邂逅日志应用，记录你与街角猫咪的每一个温柔瞬间。",
+  "requestFramePermissions": ["camera"]
+}

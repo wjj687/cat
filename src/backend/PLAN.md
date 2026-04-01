@@ -437,9 +437,11 @@ CLOUDINARY_API_SECRET="your-api-secret"
 # Recognition Provider (Google Vision / AWS Rekognition / etc)
 RECOGNITION_PROVIDER="google" # or "aws", "mock"
 GOOGLE_VISION_API_KEY="..."   # if using Google
-AWS_ACCESS_KEY_ID="..."       # if using AWS
-AWS_SECRET_ACCESS_KEY="..."
-AWS_REGION="us-east-1"
+
+# AWS Rekognition (use MM_ prefix to avoid Netlify reserved names)
+MM_AWS_ACCESS_KEY_ID="..."       # if using AWS
+MM_AWS_SECRET_ACCESS_KEY="..."
+MM_AWS_REGION="us-east-1"
 
 # Optional: For rate limiting
 UPSTASH_REDIS_REST_URL="..."
